@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservations.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Carrois+Gothic+SC&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="reservations.html">Reservation</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<form action="reservation">
+    <div class="container">
+<h1>Reservation</h1>
+        <p>Please fill out the form to make a reservation.</p>
+        <hr>
+
+        <label for="fname"><b>First Name</b></label>
+        <br>
+        <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
+        <br>
+
+        <label for="lname"><b>Last Name</b></label>
+        <br>
+        <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required>
+        <br>
+
+        <label for="email"><b>Email</b></label>
+        <br>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+        <br>
+
+        <label for="restype"><b>Reservation Type</b></label>
+        <br>
+        <select id="restype" name="restype">
+            <option value="Dinner">Dinner</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Work Event">Work Event</option>
+            <option value="VIP">VIP</option>
+            <option value="Private Room">Private Room</option>
+            <option value="Private Room Party">Private Room Party</option>
+        </select>
+        <br>
+
+        <label for="partynum"><b>Party Attendee Number</b></label>
+        <br>
+        <select id="partynum" name="partynum">
+            <optgroup label="Dinner, VIP, Private Room">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </optgroup>
+            <optgroup label="Birthday, Work Event, Private Room Party">
+                <option value="6-10">6-10</option>
+                <option value="11-15">11-15</option>
+                <option value="16-20">16-20</option>
+                <option value="21-25">21-25</option>
+                <option value="25+">25+</option>
+            </optgroup>
+            </select>
+            <br>
+
+        
+        <label for="datetime"><b>Date and Time</b></label>
+        <br>
+        <input type="datetime-local" id="dateime" name="datetime">
+        <br>
+        <br>
+
+        <button type="submit" class="resbtn">Done</button>
+        <button type="cancel" class="cancelbtn">Cancel</button>
+
+        <p class="subtext"><strong>Note: For Birthday and Work Events parties must be 6 or more!</strong></p>
+        <h2>***CANCELLATIONS***</h2>
+        <p><strong>Please call 30 minutes before your reservation.</strong></p>
+
+    </div>
+</form>
+
+<footer>
+    <address>
+        234 Eatery Way<br>
+        Eatonville, USA 23456<br>
+        Phone: 123.456.7890<br>
+        <br>
+    </address>
+    <span>&copy;Bonjour</span>
+</footer>
+
+</body>
+</html>

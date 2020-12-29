@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../Bonjour/images/reservation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+  width: 100%;
+}
+
+.menu {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  margin: 40% 20% 0 20%;
+  text-shadow: 5px 5px 20px black;
+  text-transform: uppercase;
+}
+
+form {
+  font-family: "Carrois Gothic SC", sans-serif;
+  text-align: center;
+  color: snow;
+}
+
+h1 {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-size: 110px;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+label {
+  font-size: 30px;
+  font-family: "Carrois Gothic SC", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Carrois Gothic SC", sans-serif;
+  color: white;
+}
+
+.subtext {
+  font-size: 12px;
+}
+
+input,
+select {
+  width: 30%;
+  height: 50%;
+  padding: 12px 20px;
+}
+
+button {
+  width: 15%;
+  height: 50%;
+  padding: 12px 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    list-style-type: none;
+  }
+
+  html {
+    background-image: url("../Bonjour/images/reservation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  form {
+    margin-top: 200px;
+  }
+
+  .container {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    /* margin: 50% 40% 0 10%; */
+    text-shadow: 5px 5px 20px black;
+    text-transform: uppercase;
+  }
+  input,
+  select {
+    width: 70%;
+    height: 50%;
+    padding: 12px 20px;
+  }
+  button {
+    width: 35%;
+    height: 50%;
+    padding: 12px 20px;
+  }
+  b {
+    margin-top: 100px;
+  }
+  strong {
+    color: white;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1600px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    list-style-type: none;
+  }
+
+  html {
+    background-image: url("../Bonjour/images/reservation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  form {
+    margin-top: 300px;
+  }
+
+  .container {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    /* margin: 50% 20% 0 30%; */
+    margin: 80px;
+    text-shadow: 5px 5px 20px black;
+    text-transform: uppercase;
+  }
+  input,
+  select {
+    width: 70%;
+    height: 50%;
+    padding: 12px 20px;
+  }
+  button {
+    width: 35%;
+    height: 50%;
+    padding: 12px 20px;
+  }
+  b {
+    margin-top: 100px;
+  }
+  strong {
+    color: white;
+    font-size: 15px;
+  }
+}

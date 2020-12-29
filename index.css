@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../Bonjour/images/home_food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Carrois Gothic SC", sans-serif;
+  font-size: 115px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 10px 10px 10px black;
+  perspective: 75em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    list-style-type: none;
+  }
+  html {
+    background-image: url("../Bonjour/images/home_food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1867px) {
+  h1 {
+    text-align: center;
+  }
+  html {
+    background-image: url("../Bonjour/images/home_food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+}

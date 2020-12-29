@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../Bonjour/images/menu_food_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.95;
+}
+
+.menu {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  text-align: end;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  width: 50%;
+  opacity: 0.95;
+  display: flex;
+  border-radius: 70%;
+  border-color: transparent;
+  box-shadow: 5px 10px 10px 10px black;
+  outline: none;
+}
+
+h1 {
+  font-family: "Carrois Gothic", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 110px;
+  text-shadow: 10px 10px 10px black;
+}
+
+.subheader {
+  font-size: 47px;
+  color: black;
+}
+
+h2 {
+  font-family: "Carrois Gothic", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 47px;
+  text-shadow: 2px 5px 5px silver;
+}
+
+h3 {
+  font-family: "Carrois Gothic", sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  border-radius: 50%;
+}
+
+.breakfast,
+.lunch,
+.dinner,
+.dessert {
+  float: left;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.breakfast,
+.lunch,
+.dinner,
+.dessert {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 25px;
+  text-shadow: 2px 5px 5px black;
+}
+
+.breakfast p,
+.lunch p,
+.dinner p,
+.dessert p {
+  padding: 5px;
+  margin-bottom: 100px;
+  font-family: "Oswald", sans-serif;
+}
+
+.liquor {
+  height: auto;
+  overflow: hidden;
+}
+
+.alcoholhdr {
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+p {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  z-index: 999;
+  color: black;
+}
+
+.non-alchy,
+.alchy {
+  float: left;
+  width: 20%;
+  text-shadow: 2px 2px 2px white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    list-style-type: none;
+  }
+  .alcoholhdr {
+    font-size: 70px;
+  }
+  .non-alchy {
+    display: contents;
+  }
+  .alchy {
+    display: contents;
+  }
+  .liquor {
+    display: none;
+  }
+  .breakfast,
+  .lunch,
+  .dinner,
+  .dessert {
+    display: contents;
+  }
+  h3 {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1690px) {
+  ul li {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    list-style-type: none;
+  }
+  .alcoholhdr {
+    font-size: 70px;
+  }
+  .non-alchy {
+    display: contents;
+  }
+  .alchy {
+    display: contents;
+  }
+  .liquor {
+    display: none;
+  }
+  .breakfast,
+  .lunch,
+  .dinner,
+  .dessert {
+    display: contents;
+  }
+}
